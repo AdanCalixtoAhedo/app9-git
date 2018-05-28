@@ -5,10 +5,10 @@ xmlns:gap= "http://phonegap.com/ns/1.0"
 id = "com.phonegap.example9"
 version = "1.0.0">
 
-<name>app6 Batalla del 5 de Mayo</name>
+<name>App9-2017 Geolocalizacion</name>
 
 <description>
-
+Muestra la ubicacion del dispositivo de acuerdo al GPS
 </description>
 
 <author href="https://build.phonegap.com" email="adancalixto42@gmail.com">
