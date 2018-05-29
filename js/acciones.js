@@ -18,14 +18,12 @@ $('#watch').on('click',function(){
 }
 
 	function getPosition() {
-
 	var options={
 		enableHighAccuracy : true,
 		maximumAge: 3600000
 	}
 
 	var watchID=navigator.geolocation.getCurrentPosition(onSuccess, onError, options);
-
 	function onSuccess(position) {
 
 		alert('Latitude:'	+position.coords.latitude 	+'\n' +
@@ -39,7 +37,7 @@ $('#watch').on('click',function(){
 	};
 
 	function onError(error){
-		alert('code:' 	+error.code 	+'\n' + 'message:' + error.message + '\n');
+		alert('code:' 	+error.code  +'\n' + 'message:' + error.message + '\n');
 	}
 }
 
